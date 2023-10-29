@@ -30,8 +30,8 @@ const Footer = () => {
                 md:ml-[4vw]
                 sm:ml-[4vw]'>
                 <Image
-                    alt='pic'
-                    src='https://res.cloudinary.com/ddhgokvc1/image/upload/v1697625427/Portfolio/HealthyMe/img_ie1wpv.jpg'
+                    alt="pic"
+                    src="https://res.cloudinary.com/ddhgokvc1/image/upload/v1697625427/Portfolio/HealthyMe/img_ie1wpv.jpg"
                     width={50}
                     height={50}
                     className='rounded-[50%] object-cover object-right-top h-[16vw] w-[15vw] rotate-[15deg] ml-[1vw]
@@ -48,15 +48,14 @@ const Footer = () => {
                     lg:text-[5vw]
                     md:text-[5vw]
                     sm:text-[5vw]'>
-                    <span>let's </span>
+                    <span>let&apos;s </span>
                     <span>connect</span>
                 </div>
             </div>
 
             <div>
                 <div
-                    className='before:absolute before:block before:content-[" "] h-[1px] w-[90vw] mt-[8vh]
-                    bg-[#8E8E90] mx-auto '>
+                    className='before:absolute before:block before:content-[" "] h-[1px] w-[90vw] mt-[8vh] bg-[#8E8E90] mx-auto '>
                 </div>
                 {/* <motion.button
                         className='absolute top-[15.5vh] left-[10vw] bg-[#455CE9] h-[15vh] w-[15vh] rounded-[50%] text-[3vw]
