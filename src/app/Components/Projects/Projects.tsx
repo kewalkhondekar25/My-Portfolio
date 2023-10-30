@@ -106,7 +106,7 @@ const Projects = () => {
             height={500}
             width={400}
             unoptimized
-            className=' mt-[1vh] h-[48vh] w-[33vh] cursor-pointer
+            className=' mt-[1vh] h-[300px] w-[200px] cursor-pointer
             2xl:h-[80vh] 2xl:w-[50vh] 2xl:mt-[8vh]
             xl:h-[80vh] xl:w-[50vh] xl:mt-[8vh]
             lg:h-[70vh] lg:w-[50vh] lg:mt-[8vh]
