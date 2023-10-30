@@ -104,7 +104,7 @@ const Sleepy = () => {
                     md:text-gray-300 md:w-[35vw]  '>
                         Sleepy is a React Native Mobile Application both for
                         IOS and Android. It helps you to get the restful night of sleep you deserve,
-                        with Sleepy&apos;s bedtime sleep sounds, meditations and sleep podcasts.
+                        with our bedtime sleep sounds, meditations and sleep podcasts.
                     </motion.div>
                     <motion.div
                         variants={effect3}
