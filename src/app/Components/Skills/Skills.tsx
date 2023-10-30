@@ -21,7 +21,7 @@ const Skills = () => {
   const cursor = useRef(null);
   const isInView = useInView(container);
 
-  const text = ["technical skills.", "`${technical skills}`;"]
+  const text = ["technical skills.", "tap/hover below:)"]
   const textTl = gsap.timeline({ repeat: -1 });
 
   useLayoutEffect(() => {

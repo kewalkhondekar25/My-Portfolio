@@ -63,7 +63,6 @@ const Header = () => {
         lg:bg-[#FFF3E0]
         md:bg-[#FFF3E0]
         sm:bg-[#FFF3E0]'>
-            <FramerMagnetic>
                 <div
                     className='flex cursor-pointer'>
                     <div className={`${inter.className} absolute 
@@ -86,7 +85,6 @@ const Header = () => {
                     </div>
 
                 </div>
-            </FramerMagnetic>
             <div>
                 <div
                     className='tracking-tighter'
