@@ -123,7 +123,7 @@ const Sleepy = () => {
                 </div>
 
                 <div className='relative'>
-                    <div className='absolute top-[46vh] right-[30vw]
+                    <div className='absolute top-[50vh] right-[36vw]
                     2xl:top-[23vh] 2xl:right-[18vw]
                     xl:top-[40vh] xl:right-[15vw]
                     lg:top-[20vh] lg:right-[15vw]
@@ -135,7 +135,7 @@ const Sleepy = () => {
                             src={sleepy3}
                             height={325}
                             width={325}
-                            className='h-[412px] w-[280px]
+                            className='h-[300px] w-[200px]
                             2xl:h-[500px] 2xl:w-[310px]
                             xl:h-[450px] xl:w-[280px]
                             lg:h-[450px] lg:w-[280px]
@@ -145,7 +145,7 @@ const Sleepy = () => {
                             src={sleepy2}
                             height={325}
                             width={325}
-                            className='absolute top-0 left-[30vw] h-[412px] w-[280px]
+                            className='absolute top-0 left-[30vw] h-[300px] w-[200px]
                             2xl:top-0 2xl:left-[10vw] 2xl:h-[500px] 2xl:w-[310px]
                             xl:top-0 xl:left-[10vw] xl:h-[450px] xl:w-[280px]
                             lg:top-0 lg:left-[14vw] lg:h-[450px] lg:w-[280px]
@@ -161,7 +161,7 @@ const Sleepy = () => {
             2xl:h-[10vh] 2xl:w-[20vh]
             xl:h-[10vh] xl:w-[20vh]
             lg:h-[10vh] lg:w-[20vh]
-            md:h-[10vh] md:w-[20vh]
+            md:h-[6vh] md:w-[20vh]
             sm:h-[10vh] sm:w-[20vh] '
             onClick={handleMoreProjects}>
                 more projects

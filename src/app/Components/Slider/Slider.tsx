@@ -18,7 +18,7 @@ const Slider = ({closeSlider}: any) => {
             2xl:-top-[13.2vh] 2xl:-right-[22vw] 2xl:w-[40vw] 2xl:h-[101vh]
             xl:-top-[13.6vh] xl:-right-[22vw] xl:w-[40vw] xl:h-[101vh]
             lg:-top-[13.7vh] lg:-right-[22vw] lg:w-[40vw] lg:h-[101vh]
-            md:-top-[12.1vh] md:-right-[33vw] md:w-[50vw] md:h-[101vh]
+            md:-top-[13vh] md:-right-[33vw] md:w-[50vw] md:h-[101vh]
                 bg-[#1C1D20] flex flex-col justify-around '>
                 <div className="uppercase text-[10px] text-[#8E8E90] ml-[30px] mt-10
                     after:absolute after:block after:content-[''] 

@@ -78,7 +78,7 @@ const Intro = () => {
         sm:absolute sm:top-[15vh]'>
         <div>
           <div>
-            <p className={`${inter.className}text-[#2C2C2C] text-[7vh] uppercase font-bold h-[8vh]  
+            <p className={`${inter.className}text-[#2C2C2C] text-5xl uppercase font-bold h-[7vh]  
             2xl:text-[#2C2C2C] 2xl:text-[16vh] 2xl:uppercase 2xl:font-bold 2xl:h-[18vh]
             xl:text-[#2C2C2C] xl:text-[16vh] xl:uppercase xl:font-bold xl:h-[17vh]
             lg:text-[#2C2C2C] lg:text-[12vh] lg:uppercase lg:font-bold lg:h-[15vh]
@@ -86,7 +86,7 @@ const Intro = () => {
             sm:text-[#2C2C2C] sm:text-[9vh] sm:uppercase sm:font-bold sm:h-[10vh]`}> 
               kewal
             </p>
-            <p className={`${inter.className}text-[#2C2C2C] text-[7vh] uppercase font-bold
+            <p className={`${inter.className}text-[#2C2C2C] text-5xl uppercase font-bold
             2xl:text-[#2C2C2C] 2xl:text-[16vh] 2xl:uppercase 2xl:font-bold
             xl:text-[#2C2C2C] xl:text-[16vh] xl:uppercase xl:font-bold
             lg:text-[#2C2C2C] lg:text-[12vh] lg:uppercase lg:font-bold
