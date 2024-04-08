@@ -102,7 +102,7 @@ const Projects = () => {
         className=' 2xl: '>
           <Image
             alt='hm1'
-            src="https://res.cloudinary.com/ddhgokvc1/image/upload/v1697581063/Portfolio/HealthyMe/iphone1_gkyvhf.png"
+            src="https://res.cloudinary.com/kewalkhondekar/image/upload/v1697581063/Portfolio/HealthyMe/iphone1_gkyvhf.png"
             height={500}
             width={400}
             unoptimized
@@ -121,7 +121,7 @@ const Projects = () => {
           <div className='2xl:relative'>
             <Image
               alt='hm2'
-              src="https://res.cloudinary.com/ddhgokvc1/image/upload/v1698237787/Portfolio/HealthyMe/1_b0pfyo.png"
+              src="https://res.cloudinary.com/kewalkhondekar/image/upload/v1698237787/Portfolio/HealthyMe/1_b0pfyo.png"
               height={850}
               width={850}
               className=' rounded-[2vw] border-2 mx-auto h-[60vw] w-[95vw] cursor-pointer

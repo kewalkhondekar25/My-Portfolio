@@ -15,7 +15,7 @@ const Slider = ({closeSlider}: any) => {
             animate="enter"
             exit="exit"
             className='absolute -top-[56px] -right-[60px] w-[100.55vw] h-screen 
-            2xl:-top-[13.2vh] 2xl:-right-[22vw] 2xl:w-[40vw] 2xl:h-[101vh]
+            2xl:-top-[13.3vh] 2xl:-right-[22vw] 2xl:w-[40vw] 2xl:h-[101vh]
             xl:-top-[13.6vh] xl:-right-[22vw] xl:w-[40vw] xl:h-[101vh]
             lg:-top-[13.7vh] lg:-right-[22vw] lg:w-[40vw] lg:h-[101vh]
             md:-top-[13vh] md:-right-[33vw] md:w-[50vw] md:h-[101vh]

@@ -31,7 +31,7 @@ const Footer = () => {
                 sm:ml-[4vw]'>
                 <Image
                     alt="pic"
-                    src="https://res.cloudinary.com/ddhgokvc1/image/upload/v1697625427/Portfolio/HealthyMe/img_ie1wpv.jpg"
+                    src="https://res.cloudinary.com/kewalkhondekar/image/upload/v1697625427/Portfolio/HealthyMe/img_ie1wpv.jpg"
                     width={50}
                     height={50}
                     className='rounded-[50%] object-cover object-right-top h-[16vw] w-[15vw] rotate-[15deg] ml-[1vw]
