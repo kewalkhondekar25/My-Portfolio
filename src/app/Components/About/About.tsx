@@ -12,8 +12,7 @@ const About = () => {
   const isInView = useInView(container1);
   const isInView2 = useInView(container2);
 
-  const phrase1 = `I'm a passionate and enthusiast programmer, who is always looking for new challenges to ameliorate my technical skills. I build large, scalable as well as production grade Web as well as hybrid Mobile applications
-  with ease and intuitive User Experiences.`;
+  const phrase1 = `I'm a passionate and enthusiast programmer, who is always looking for new challenges to ameliorate my technical skills. I build large, scalable production grade Web as well as hybrid Mobile applications with ease and intuitive User Experiences.`;
   const phrase2 = `The combination of my passion for design, code & interaction positions me in a unique place in the web development world.`
   return (
     <div
