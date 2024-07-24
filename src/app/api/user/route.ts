@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 connectDB();
 
-export const POST = async (req: NextRequest) => {
+export const POST = async (req: NextRequest, res: NextResponse) => {
   try {
     const reqBody = await req.json();
     if(!reqBody){
@@ -31,4 +31,4 @@ export const GET = async () => {
   }
 };
 
-export const dynamic = "force-static";
+// export const dynamic = "force-static";
