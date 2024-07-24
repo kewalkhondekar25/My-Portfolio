@@ -9,13 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
     "framer-motion": "^10.16.4",
     "gsap": "^3.12.2",
     "locomotive-scroll": "^5.0.0-beta.8",
     "lottie-react": "^2.4.0",
+    "mongoose": "^8.5.1",
     "next": "13.5.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1"
   },
   "devDependencies": {
     "@types/locomotive-scroll": "^4.1.2",

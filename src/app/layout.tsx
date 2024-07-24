@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Header from './Components/Header/Header'
 import siteMetaData from '../../Utils/siteMetaData'
+import { Toaster } from 'react-hot-toast'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -52,8 +53,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header/>
+        <Toaster/>
           {children}
-        </body>
+      </body>
     </html>
   )
 }
