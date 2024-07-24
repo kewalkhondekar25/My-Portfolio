@@ -19,7 +19,7 @@ export const POST = async (req: NextRequest) => {
       message: "user created successfully",
     data: user},{status: 201});
   } catch (error) {
-    return NextResponse.json(error)
+    return NextResponse.json(error);
   }
 };
 
