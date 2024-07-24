@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import Header from './Components/Header/Header'
 import siteMetaData from '../../Utils/siteMetaData'
 import { Toaster } from 'react-hot-toast'
+import {Analytics} from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -54,6 +55,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header/>
         <Toaster/>
+        <Analytics/>
           {children}
       </body>
     </html>

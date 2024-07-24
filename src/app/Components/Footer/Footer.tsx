@@ -32,7 +32,7 @@ const Footer = () => {
       return toast.error("Fields are missing");
     };
     const loading = toast.loading("Submitting⏱️ your details...");
-    const result = await axios.post("https://kewalkhondekar.dev/api/user", userData);
+    const result = await axios.post("/api/user", userData);
     const response = result.data;
     console.log(response);
     setUserData({ name: "", email: "", message: "" });

@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 connectDB();
 
-export const POST = async (req: NextRequest, res: NextResponse) => {
+export const POST = async (req: NextRequest) => {
   try {
     const reqBody = await req.json();
     if(!reqBody){
@@ -23,12 +23,12 @@ export const POST = async (req: NextRequest, res: NextResponse) => {
   }
 };
 
-// export const GET = async () => {
-//   try {
-//     return NextResponse.json({message: "Hello"}, {status: 200})
-//   } catch (error) {
-//     return NextResponse.json(error);
-//   }
-// };
+export const GET = async () => {
+  try {
+    return NextResponse.json({message: "Hello"}, {status: 200})
+  } catch (error) {
+    return NextResponse.json(error);
+  }
+};
 
 export const dynamic = "force-static";
